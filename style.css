@@ -19,7 +19,6 @@
   --text-shadow: 2px 2px 4px green;
 }
 .content {background:var(--darker);border-radius:5px;}
-.content:hover {transform: scale(1.005);}
 
 .primary {background-color:var(--gradient);}
 .secondary {background-color:var(--gradient);}
@@ -40,11 +39,6 @@ input {background-color: var(--bg-input);}
    text-shadow: var(--text-shadow);
    font-size: 30px;
    transition: all 1.5s ease;
-}
-.box:hover {
-  transform: scale(1.02);
-  transition-duration: 0.5s;
-  filter: brightness(1.1);
 }
 body {
   font-family: arial;
@@ -69,16 +63,6 @@ body {
   border-radius: 15px;
   transition: all 0.6s ease;
 }
-.btn:hover {
-  transform: scale(1.02);
-  transition-duration: 0.2s;
-  filter: brightness(1.1);
-}
-.btn_top:hover {
-  transform: scale(1.02);
-  transition-duration: 0.2s;
-  filter: brightness(1.1);
-}
 button {
   background: var(--bg-btn);
   background-clip: padding-box;
@@ -88,11 +72,6 @@ button {
   margin: 10px;
   border-radius: 15px;
   transition: all 0.6s ease;
-}
-button:hover {
-  transform: scale(1.02);
-  transition-duration: 0.2s;
-  filter: brightness(1.1);  
 }
 .papier {
   padding: 40px;
@@ -106,11 +85,6 @@ button:hover {
   text-shadow: var(--text-shadow);
   font-size: 20px;
   transition: all 1.5s ease;
-}
-.papier:hover {
-  transform: scale(1.02);
-  transition-duration: 0.5s;
-  filter: brightness(1.04);
 }
 nav {
    padding: 40px;
@@ -129,11 +103,6 @@ input[type="submit"] {
   background: var(--bg-btn);
   transition: all 0.6s ease;
 }
-input:hover[type="submit"] {
-  transform: scale(1.2);
-  transition-duration: 0.2s;
-  filter: brightness(1.04);
-}
 input[type="text"] {
   padding: 10px;
   margin: 2px;
@@ -142,10 +111,5 @@ input[type="text"] {
   background: var(--input-bgn);
   font-weight: bold;
   transition: all 0.6s ease;
-}
-input:hover[type="text"] {
-  transform: scale(1.02);
-  transition-duration: 0.2s;
-  filter: brightness(1.04);
 }
 
