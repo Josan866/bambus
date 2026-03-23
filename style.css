@@ -8,7 +8,7 @@
   
   --bg-input: #e3e3e3;
 
-  --darker: linear-gradient(45deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+  --darker: rgba(0, 0, 0, 0.2);
 
   /* Nick */
   --gradient: linear-gradient(45deg, rgba(3, 78, 3, 0.507), rgba(10, 206, 10, 0.562));
@@ -42,7 +42,7 @@ input {background-color: var(--bg-input);}
 }
 .box:hover {
   transform: scale(1.02);
-  transition: 0.2s ease;
+  transition: 0.5s ease;
   filter: brightness(1.1);
 }
 body {
@@ -104,7 +104,7 @@ button:hover {
 }
 .papier:hover {
   transform: scale(1.02);
-  transition: 0.2s ease;
+  transition: 0.5s ease;
   filter: brightness(1.04);
 }
 nav {
