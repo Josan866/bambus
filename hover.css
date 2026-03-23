@@ -1,1 +1,37 @@
+.content:hover {transform: scale(1.005);}
 
+.box:hover {
+  transform: scale(1.02);
+  transition-duration: 0.5s;
+  filter: brightness(1.1);
+}
+.btn:hover {
+  transform: scale(1.02);
+  transition-duration: 0.2s;
+  filter: brightness(1.1);
+}
+.btn_top:hover {
+  transform: scale(1.02);
+  transition-duration: 0.2s;
+  filter: brightness(1.1);
+}
+button:hover {
+  transform: scale(1.02);
+  transition-duration: 0.2s;
+  filter: brightness(1.1);  
+}
+.papier:hover {
+  transform: scale(1.02);
+  transition-duration: 0.5s;
+  filter: brightness(1.04);
+}
+input:hover[type="submit"] {
+  transform: scale(1.2);
+  transition-duration: 0.2s;
+  filter: brightness(1.04);
+}
+input:hover[type="text"] {
+  transform: scale(1.02);
+  transition-duration: 0.2s;
+  filter: brightness(1.04);
+}
